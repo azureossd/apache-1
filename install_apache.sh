@@ -5,7 +5,7 @@ sudo apt-get update
 
 sleep 15
 
-sudo apt-get -y install apache2 php php-mysql libapache2-mod-php php-cli
+sudo apt-get -y install apache2
 
 # Enable Apache and start it
 sudo systemctl enable apache2
